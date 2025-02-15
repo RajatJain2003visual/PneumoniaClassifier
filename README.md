@@ -46,18 +46,21 @@ cd PneumoniaClassifier
 pip install -r requirements.txt
 ```
 ### **3. Run the Model**
-```python
-## Pneumonia Classifier Model
-
 Due to GitHub's file size limit, the model is hosted on Google Drive.  
 Click the button below to download the model:
 
 <a href="https://drive.google.com/your-file-link" target="_blank">
   <img src="https://img.shields.io/badge/Download%20Weights-Google%20Drive-blue?style=for-the-badge&logo=google-drive" alt="Download Weights">
-</a>
+</a>  
+<br>
+<br>
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e4pbpFQLkKrQt0lG-ltCDBnjYLsBWZmz?usp=sharing)
+IPYNB Project File :  
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e4pbpFQLkKrQt0lG-ltCDBnjYLsBWZmz?usp=sharing)
 
+
+
+```python
 python predict.py --image_path sample_xray.jpg  # To make a prediction
 ```
 
