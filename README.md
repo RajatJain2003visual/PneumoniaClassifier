@@ -30,7 +30,7 @@ I created three variations of the classifier:
 
 ## **Implementation**
 - **Framework:** TensorFlow/Keras  
-- **Model Architecture:** Xception  
+- **Model Architecture:** Xception (Conv_base) + Dense Layers  
 - **Loss Function:** Binary Cross-Entropy  
 - **Optimizer:** Adam  
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score  
